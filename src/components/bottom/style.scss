@@ -1,0 +1,24 @@
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    background-color: #627284;
+    height: 100%;
+
+    .title,
+    .sl-container {
+        color: #fff;
+        font-size: 20px;
+        margin: auto;
+    }
+}
+
+.sl-container {
+    padding-left: 10px;
+    .header,
+    .inner-container,
+    .sl-footer {
+        font-size: 20px;
+    }
+}

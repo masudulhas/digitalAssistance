@@ -1,5 +1,6 @@
-import React, {Component} from 'react'
-import './style.scss'
+import React, {Component} from 'react';
+import './style.scss';
+import Sl from './sl';
 
 class BottomSection extends Component {
 
@@ -9,7 +10,16 @@ class BottomSection extends Component {
     }
 
     render(){
-        return <div> BOTTOM SECTION </div>
+        return (
+            <div className="bottom-container">
+                <span className="title">
+                Next Departure
+                </span>
+                <span className="image">
+                    <img src="/images/sllogo.png" height="50" alt="" />
+                </span>
+                <Sl {...this.props} />
+            </div>)
     }
 }
 

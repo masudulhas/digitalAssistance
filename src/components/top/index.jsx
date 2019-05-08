@@ -12,9 +12,8 @@ class TopSection extends Component {
     render() {
         return (
         <div className="top-container">
-            <div className="title">Weather App</div>
+            <div className="title">Today's Weather</div>
             <Weather {...this.props} />
-            <button className="btn btn-select-location">Select location</button>
         </div>)
     }
 }

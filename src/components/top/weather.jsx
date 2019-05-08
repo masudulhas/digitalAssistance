@@ -9,13 +9,13 @@ class Weather extends Component {
     }
 
 render(){
-    const { location, temp_c, isDay, text, iconURL } = this.props;
+    const { location, temp_c, text, iconURL } = this.props;
     return (
         <div className="weather-container">
             <div className="header">{location}</div>
             <div className="inner-container">
                 <span className="image">
-                <img src= {iconURL} height="42" />
+                <img src= {iconURL} height="42" alt="" />
                 </span>
                 <span className="current-weather">{temp_c} deg</span>
             </div>
