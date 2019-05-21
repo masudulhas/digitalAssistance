@@ -52,7 +52,7 @@ class App extends Component {
     }).then((data) => {
       const resp = data.ResponseData.Buses[0];
       this.setState({
-        Destination: data.ResponseData.Buses[0].Destination,
+        Destination: resp.Destination,
         LineNumber: resp.LineNumber,
         DisplayTime: resp.DisplayTime,
         StopAreaName: resp.StopAreaName

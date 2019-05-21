@@ -1,3 +1,8 @@
+My project is to help me with two very important informations which I need in my everyday life. These informations help me better plan and prepare when I leave from my home
+    1.Showing the current weather
+    2.  Showing the departure time of next bus from the nearest bus stop close to my home. 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

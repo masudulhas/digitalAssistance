@@ -16,7 +16,7 @@ class BottomSection extends Component {
                 Next Departure
                 </span>
                 <span className="image">
-                    <img src="/images/sllogo.png" height="50" alt="" />
+                    <img src="/images/buss.png" height="50" alt="" />
                 </span>
                 <Sl {...this.props} />
             </div>)
